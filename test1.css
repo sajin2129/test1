@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.full{
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #0B74D4;
+    align-items: center;
+}
+.head{
+    background-color:#CFECFA ;
+    padding: 3px;
+}
+.bot{
+    position: absolute;
+    bottom: 2px;
+    left: 6px;
+}
+.toppic{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    
+
+}
+.botpic{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+
+
+
+}
+.lo{
+    font-size: 100px;
+ 
+    z-index: 2;
+}
+.logo{
+position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CFECFA;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    z-index: 7;
+}
+.count{
+    background-color: #006FCF;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:-10px;
+    left: 4px;
+}
+.det{
+    height: 40px;
+    padding: 20px;
+    background-color: #CFECFA;
+    border-radius: 50px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    font-weight: bold;
+    font-size: medium;
+
+}
+/* .whi1{
+    width: 200px;
+    background-color: rgb(90, 42, 42);
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+} */
+.whi2{
+        right: -76px;
+    top: 319px;
+    /* left: 224px; */
+    width: 200px;
+    background-color:white;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+}
+.plogo{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    
+}
+.topborder{
+    border: 2px solid black;
+
+    width: 100%;
+    height: 150px;
+    border-style: dotted;
+    border-radius: 70px;
+    position: absolute;
+top: 250px;
+left: -60px;
+    border-left: none;
+    border-bottom: none;
+    z-index: 4;
+}
+.bottomborder{
+    border: 2px solid black;
+    width: 100%;
+    height: 169px;
+    border-style: dotted;
+    border-radius: 91px;
+    position: absolute;
+    top: 401px;
+    right: -188px;
+    border-right: none;
+    z-index: 3;
+}
